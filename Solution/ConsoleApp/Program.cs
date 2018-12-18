@@ -20,6 +20,10 @@ namespace ConsoleApp
 
             Console.WriteLine($"il numero {value} convertito in base 2 diventa {binary}");
 
+            string risultato = Convert.ToString(value, 16);
+
+            Console.WriteLine($"il numero {value} convertito in base 16 diventa {risultato}");
+
             Console.ReadLine();
         }
     }
