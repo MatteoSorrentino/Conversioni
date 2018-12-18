@@ -24,6 +24,10 @@ namespace ConsoleApp
 
             Console.WriteLine($"il numero {value} convertito in base 16 diventa {risultato}");
 
+            string risultato2 = Convert.ToString(value, 8);
+
+            Console.WriteLine($"il numero {value} convertito in base 8 diventa {risultato2}");
+
             Console.ReadLine();
         }
     }
