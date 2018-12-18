@@ -28,6 +28,8 @@ namespace ConsoleApp
 
             Console.WriteLine($"il numero {value} convertito in base 8 diventa {risultato2}");
 
+            Console.WriteLine("ciao");
+
             Console.ReadLine();
         }
     }
